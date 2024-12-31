@@ -36,8 +36,6 @@
       hasil.textContent = 'LOSE'
       saldo.innerText = parseInt(deposit)
     }else if(anda == batu && cpu == gunting){
-      deposit = parseInt(deposit)
-      deposit+=taruh
       hasil.textContent = 'WIN'
       saldo.innerText = parseInt(saldo.innerText) + parseInt(taruh)
     }else if(anda == kertas && cpu == batu){
@@ -49,22 +47,18 @@
       deposit = parseInt(deposit)
       deposit-=taruh
       hasil.textContent = 'LOSE'
-      saldo.innerText = parseInt(deposit)
+      saldo.innerText = deposit
     }else if(anda == gunting && cpu == kertas){
-      deposit = parseInt(deposit)
-      deposit+=taruh
       hasil.textContent = 'WIN'
-      saldo.innerText = parseInt(saldo.innerText) + parseInt(taruh)
+      saldo.innerHTML = parseInt(saldo.innerHTML) + parseInt(taruh)
     }else if(anda == gunting && cpu == batu){
-      deposit = parseInt(deposit)
       deposit-=taruh
       hasil.textContent = 'LOSE'
-      saldo.innerText = parseInt(deposit)
+      saldo.innerText = deposit
     }
      let dok = parseInt(saldo.innerText);
-    if(dok >= 10000){
+      if(dok >= 10000){
       win.style.display = 'block'
-      return
     }
     
     if(dok <= 0){
