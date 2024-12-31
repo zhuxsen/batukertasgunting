@@ -1,0 +1,129 @@
+body{
+  box-sizing: border-box;
+  background: #161616fd;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+    }
+#lose{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      display: none;
+      z-index: 9999;
+    }
+    #lose img{
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+      transform: translateY(220px);
+      
+    }
+#win{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      display: none;
+      z-index: 9999;
+    }
+    #win img{
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+      transform: translateY(220px);
+      
+    }
+    
+.container{
+  position: relative;
+  width: 290px;
+  height: 270px;
+  background-color: #075b0ffd;
+  padding: 20px;
+  display: flex;
+  border-bottom: 7px solid #66f675fd;
+  border-right: 7px solid #66f675fd;
+  border-radius: 12px;
+  transform: translateY(190px);
+}
+.container input{
+  width: 270px;
+  height: 39px;
+  background: transparent;
+  outline: none;
+  margin: 5px;
+}
+
+.container input:valid,input:focus{
+  color: #66f675fd;
+  border: 2px solid #66f675fd;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+input[type="number"]{
+ width: 90px;
+ height: 40px;
+ background: transparent;
+ font-size: 5px;
+}
+
+.input .lawan{
+  position: absolute;
+  right: 156px;
+}
+
+.input .cpubottom{
+  transform: translateY(23px);
+}
+
+.input .saldo{
+  font-size: 30px;
+  position: absolute;
+  right: 12px;
+  top: 68px;
+  background: rgb(192,230,104);
+  background: linear-gradient(90deg, rgba(192,230,104,1) 3%, rgba(100,243,113,1) 65%, rgba(221,249,255,1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.input button{
+  width: 289px;
+  height: 50px;
+  border-radius: 9px;
+}
+
+.container .input{
+  transform: translateX(1
+  -9%);
+}
+
+.container #hasil{
+  font-size: 30px;
+  text-align: center;
+  transform: translateX(100px);
+  background: rgb(192,230,104);
+  background: linear-gradient(90deg, rgba(192,230,104,1) 3%, rgba(100,243,113,1) 65%, rgba(221,249,255,1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+}
+p{
+  color: #89f472fd;
+  stroke: #84bb78fd;
+  position: absolute;
+  right: -20px;
+  transform: translateX(-55px);
+  text-align: center;
+}
