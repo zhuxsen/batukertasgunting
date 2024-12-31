@@ -1,3 +1,2 @@
-Form Anda di inputan kata berikut
-kertas,batu,gunting pilih salah satu 😎
+Pilih kata berikut : kertas,batu,gunting lalu di masukan ke form anda
 Form cekin di isi taruhan
