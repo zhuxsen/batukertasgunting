@@ -54,7 +54,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 350px;
-  height: 310px;
+  height: 370px;
   background-color: #075b0ffd;
   border-bottom: 7px solid #66f675fd;
   border-right: 7px solid #66f675fd;
@@ -120,7 +120,7 @@ input[type="number"]{
 
 .container .input{
   transform: translateX(
-  15px);
+  27px);
 }
 
 .container #hasil{
@@ -154,4 +154,10 @@ input:read-only {
   text-align: center;
   width: 310px;
   height: 55px;
+}
+
+.catatan{
+  color: white;
+  font-size: 15px;
+  margin: 4px;
 }
