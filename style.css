@@ -54,7 +54,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 350px;
-  height: 370px;
+  height: 390px;
   background-color: #075b0ffd;
   border-bottom: 7px solid #66f675fd;
   border-right: 7px solid #66f675fd;
@@ -160,4 +160,5 @@ input:read-only {
   color: white;
   font-size: 15px;
   margin: 4px;
+  transform: translateY(25px);
 }
