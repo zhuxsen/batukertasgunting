@@ -15,17 +15,9 @@
     let win = document.getElementById('win')
     let taruh = document.getElementById('taruh').value
     let cpu = document.getElementById('cpu').value = all[acak]
-    let cs = document.querySelector('.container .input')
-    
-    cs.style.position = 'absolute'
-    cs.style.top = '60px'
-    cs.style.transform = 'translateX(-72px)'
     
     if(anda == '' && taruh == ''){
-      alert('Wajib di isi')
-      cs.style.transform = 'translateX(-5px)'
-      cs.style.position = 'absolute'
-      cs.style.top = '20px'
+      alert('Wajib di isi untuk form Anda dan Cekin')
     }
     
     if(anda == cpu){
