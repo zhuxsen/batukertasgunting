@@ -54,7 +54,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 350px;
-  height: 400px;
+  height: 390px;
   background-color: #075b0ffd;
   border-bottom: 7px solid #66f675fd;
   border-right: 7px solid #66f675fd;
@@ -71,6 +71,18 @@ body{
   font-size: 25px;
   border-radius: 5px;
   color: #7af676ef;
+}
+
+select{
+  width: 270px;
+  height: 45px;
+  font-size: 25px;
+  color: #7af676ef;
+  text-decoration: none;
+  border: 3px solid #7af676ef;
+  background: transparent;
+  border-radius: 5px;
+  transform: translateX(5px);
 }
 
 
@@ -138,7 +150,7 @@ p{
   color: #89f472fd;
   position: absolute;
   right: -36px;
-  bottom: 192px;
+  bottom: 207px;
   transform: translateX(-95px);
 }
 
