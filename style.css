@@ -147,7 +147,7 @@ input[type="number"]{
   
 }
 p{
-  color: #89f472fd;
+  color: #e07affef;
   position: absolute;
   right: -36px;
   bottom: 207px;
@@ -158,11 +158,11 @@ input:read-only {
   outline: none;
   font-size: 24px;
   border: 3px solid ;
-  color: white;
+  color: #e07affef;
   border-radius: 5px;
 }
 
-.container .co{
+.container .hasilFight{
   text-align: center;
   width: 310px;
   height: 55px;
